@@ -1,0 +1,135 @@
+.app-info {
+  background-color: #100e1d;
+  width: 70%;
+  min-height: 100vh;
+  padding: 42px 123px 25px 154px;
+}
+
+.app-info-header {
+  text-align: right;
+  margin-bottom: 66px;
+}
+
+.app-info-icon {
+  padding: 10px 12px;
+  background-color: #585676;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #e7e7eb;
+  margin-left: 10px;
+}
+
+.app-info-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.forecast-box {
+  padding: 18px 22px;
+  background: #1e213a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forecast-date {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e7e7eb;
+  margin-bottom: 10px;
+}
+
+.forecast-image {
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.forecast-temp {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.forecast-temp-main {
+  color: #e7e7eb;
+}
+
+.forecast-temp-avrg {
+  color: #a09fb1;
+}
+
+.hightlights-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.hightlights-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #e7e7eb;
+  margin-bottom: 32px;
+}
+
+.hightlights-main-box {
+  width: 328px;
+  height: 204px;
+  padding: 22px 0;
+  background-color: #1e213a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hightlights-main-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e7e7eb;
+  margin-bottom: 8px;
+}
+
+.hightlights-main-value {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #e7e7eb;
+  margin-bottom: 30px;
+}
+
+.hightlights-main-unit {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42.26px;
+}
+
+.hightlights-main-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #e7e7eb;
+}
+
+.secondary {
+  height: 159px;
+}
+
+.app-info-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.app-info-footer {
+  text-align: center;
+}

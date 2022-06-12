@@ -1,0 +1,59 @@
+.meter {
+  width: 70%;
+  height: 8px;
+  border-radius: 80px;
+  background-color: #e7e7eb;
+  position: relative;
+}
+
+.meter-value {
+  position: absolute;
+  width: 76%;
+  background-color: #ffec65;
+  border-radius: 80px;
+  height: 8px;
+}
+
+.meter::before {
+  position: absolute;
+  top: -15px;
+  content: "0";
+  color: #e7e7eb;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.meter::after {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  content: "100";
+  color: #e7e7eb;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.wind-direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -13px;
+}
+
+.wind-direction-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 6px 6px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.wind-direction-icon {
+  transform: rotate(-45deg);
+  width: 16px;
+  height: 16px;
+}
