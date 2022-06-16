@@ -18,7 +18,7 @@ export default function Info({ lat, lon }) {
     dailyForecast = weatherData.daily.map((el, i) => {
       if (i < 5)
         return (
-          <div key={i}>
+          <div className="forecast-wrapper" key={i}>
             <DailyForecast data={el} />
           </div>
         );

@@ -64,9 +64,12 @@
   }
 
   .forecast-box {
-    width: 48%;
-    flex-basis: 48%;
+    width: 100%;
     margin-bottom: 10px;
+  }
+
+  .forecast-wrapper {
+    width: 48%;
   }
 
   .hightlights-main {
@@ -84,8 +87,12 @@
 
 @media screen and (min-width: 700px) and (max-width: 991px) {
   .forecast-box {
-    width: 31%;
+    width: 100%;
     flex-basis: 31%;
+  }
+
+  .forecast-wrapper {
+    width: 31%;
     margin-right: 10px;
   }
 
